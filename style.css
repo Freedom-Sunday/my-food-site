@@ -1,0 +1,589 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Itim&family=Lora&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: itim;
+    color: rgb(68, 33, 20);
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(100, 1%);
+    grid-template-rows: repeat(400, 1vh);
+    /* background-color: rgb(255, 246, 235); */
+    background: linear-gradient(white, rgb(255, 240, 211));
+}
+
+nav{
+    grid-row: span 9;
+    grid-column: span 100;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    gap: 10%;
+    align-items: center;
+    background-color: white;  
+}
+
+ul{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+li, a{
+    list-style: none;
+    text-decoration: none;
+    /* font-family: cursive; */
+}
+
+ul li a{
+    color: rgb(114, 112, 112);
+    font-weight: 600;
+}
+
+ul li a:hover{
+    color: orangered;
+    border-bottom: solid 5px orangered;
+}
+
+.logo{
+    font-size: 200%;
+    color: gray;
+    font-weight: 600;
+    /* font-family: Itim; */
+    margin-left: 5.5%;
+}
+
+.zza{
+    font-family: cursive;
+    color: orangered;
+}
+
+#contact-us{
+    height: 80%;
+    width: 10%;
+    border-radius: 25px;
+    background-color: orangered;
+    border: none;
+    margin-right: 8%;
+}
+
+#contact-us a{
+    color: white;
+
+}
+
+#main-content{
+    grid-column: span 100;
+    grid-row: span 70;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+}
+
+.box1{
+    height: 100%;
+    width: 45%;
+    color: rgb(68, 33, 20);
+    /* background-color: chartreuse; */
+}
+
+.box1a{
+    margin-left: 12%;
+    margin-top: 10%;
+}
+
+
+
+h1{
+    font-size: 300%;
+    font-weight: 600;
+    /* font-family: itim; */
+}
+
+#place{
+    height: 7vh;
+    width: 30%;
+    font-weight: 800;
+    border: none;
+    border-radius: 25px;
+    background-color: orangered;
+    color: white;
+}
+
+#chec{
+    height: 7vh;
+    width: 30%;
+    font-weight: 800;
+    border: solid 1px orangered;
+    border-radius: 25px;
+    color: white;
+    margin-left: 5%;
+}
+
+
+#chec a{
+    color: orangered;
+
+}
+
+
+.box2{
+    height: 100%;
+    width: 55%;
+    background-image: url(./media/first-pizza-pic-removebg-preview.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: drop-shadow(15px 10px 14px grey);
+}
+
+
+#first-section{
+    grid-column: span 100;
+    grid-row: span 8;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+}
+
+.review{
+    /* font-family: itim; */
+    font-weight: bold;
+    font-size: 150%;
+    margin-left: 6%;
+}
+
+#second-section{
+    grid-column: span 100;
+    grid-row: span 20;
+    /* background-color: violet; */
+    display: flex;
+}
+
+.box3{
+    height: 90%;
+    width: 25%;
+    border-radius: 5px;
+    /* background-color: chartreuse; */
+    margin-left: 6%;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px orangered;
+}
+
+.box3a{
+    height: 50%;
+    width: 50%;
+    /* background-color: red; */
+}
+
+.box3b{
+    height: 90%;
+    width: 50%;
+    /* background-color: blue; */
+    background-image: url(./media/Pepperoni-Dominos-Pizza-PNG-Free-Download-removebg-preview.png);
+    filter: drop-shadow(15px 10px 14px grey);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.price{
+    color: orangered;
+}
+
+.box4{
+    height: 90%;
+    width: 25%;
+    /* background-color: chartreuse; */
+    margin-left: 6%;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-bottom: solid 1px orangered;
+}
+
+.box4a{
+    height: 50%;
+    width: 50%;
+    /* background-color: red; */
+}
+
+.box4b{
+    height: 90%;
+    width: 50%;
+    /* background-color: blue; */
+    background-image: url(./media/spice-pizza-removebg-preview.png);
+    filter: drop-shadow(15px 10px 14px grey);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.price{
+    color: orangered;
+}
+
+#third-section{
+    grid-column: span 100;
+    grid-row: span 15;
+    /* background-color: orangered; */
+    display: flex;
+    align-items: flex-end;
+}
+
+.menu{
+    margin-left: 6%;
+    /* font-family: itim; */
+    font-size: xx-large;
+}
+
+.fourth-section{
+    grid-column: span 100;
+    grid-row: span 10;
+    /* background-color: violet; */
+    display: flex;
+    align-items: center;
+}
+
+.box5{
+    height: 95%;
+    width: 20%;
+    /* background-color: burlywood; */
+    margin-left: 6%;
+    margin-right: 1%;
+}
+
+.lorem{
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+    font-family: cursive;
+    
+}
+
+
+.box6, .box7, .box8, .box9, .box10{
+    height: 90%;
+    width: 12%;
+    border: solid 1px orange;
+    border-radius: 40px;
+    margin-left: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+
+.box6:hover, .box7:hover, .box8:hover, .box9:hover, .box10:hover{
+    background-color: orangered;
+    color: white;
+    border: solid 1px orangered;
+}
+
+.fifth-section{
+    grid-column: span 100;
+    grid-row: span 70;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#food-boxes{
+    height: 90%;
+    width: 87%;
+    /* background-color: burlywood; */
+    margin-right: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.food-box1{
+    height: 90%;
+    width: 45%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+}
+
+.food-box2{
+    height: 90%;
+    width: 45%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: column;
+}
+
+.foodbox1a, .foodbox1b, .foodbox1c, .foodbox1d{
+    height: 23%;
+    width: 100%;
+    /* background-color: orangered; */
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+}
+
+.cereals1a, .cereals1b, .cereals1c, .cereals1d, .cereals1e, .cereals1f, .cereals1g, .cereals1h{
+    height: 100%;
+    width: 30%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.food-text:hover, .food-desc:hover, strong:hover{
+    color: orangered;
+    cursor: pointer;
+}
+
+.cereals1a{
+    background-image: url(./media/mushroom_pizza-removebg-preview.png);
+    filter: drop-shadow(15px 10px 14px grey);
+}
+
+.cereals1b{
+    background-image: url(./media/first-pizza-pic-removebg-preview.png);
+    filter: drop-shadow(15px 10px 14px grey);
+}
+
+.cereals1c{
+    background-image: url(./media/Basic-White-Bread-removebg-preview.png);
+    filter: drop-shadow(15px 10px 14px grey);
+}
+
+.cereals1d{
+    background-image: url(./media/meat-removebg-preview.png);
+    filter: drop-shadow(15px 10px 14px grey);
+}
+
+.cereals1e{
+    background-image: url(./media/pretzels-removebg-preview.png);
+    filter: drop-shadow(15px 10px 14px grey);
+}
+
+.cereals1f{
+    background-image: url(./media/beefy-burrito-removebg-preview.png);
+    filter: drop-shadow(15px 10px 14px grey);
+}
+
+.cereals1g{
+    background-image: url(./media/monster-taco-removebg-preview.png);
+    filter: drop-shadow(15px 10px 14px grey);
+}
+
+.cereals1h{
+    background-image: url(./media/brewhouse-ing-removebg-preview.png);
+    filter: drop-shadow(15px 10px 14px grey);
+}
+
+.cereals2{
+    height: 70%;
+    width: 45%;
+    /* background-color: cadetblue; */
+}
+
+.food-text, .food-desc{
+    font-family: cursive;
+}
+
+.cereals3{
+    height: 40%;
+    width: 25%;
+    /* background-color: brown; */
+}
+
+.sixth-section{
+    grid-column: span 100;
+    grid-row: span 70;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+}
+
+.big-dish{
+    height: 100%;
+    width: 50%;
+    /* background-color: brown; */
+    background-image: url(./media/Pepperoni-Dominos-Pizza-PNG-Free-Download-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: drop-shadow(15px 10px 14px grey);
+}
+
+.todays-best{
+    height: 90%;
+    width: 50%;
+    /* background-color: chartreuse; */
+}
+
+.today-best-h2{
+    font-size: 300%;
+    margin-top: 14%;
+}
+
+.today-best-i{
+    font-size: 200%;
+    color: orangered;
+    margin-top: 3%;
+}
+
+.today-best-p{
+    margin-top: 3%;
+}
+
+.place, .save{
+    height: 12%;
+    width: 20%;
+    margin-top: 3%;
+    margin-right: 3%;
+    border-radius: 25px;
+    font-size: 100%;
+    color: white;
+    border: solid 1px orange;
+    background-color: orangered;
+}
+
+.save{
+    background-color: white;
+    color: rgb(68, 33, 20);
+}
+
+.seventh-section{
+    grid-row: span 50;
+    grid-column: span 100;
+    /* background-color: cornflowerblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.what-people{
+    height: 70%;
+    width: 30%;
+    /* background-color: blueviolet; */
+    /* border: solid 1px orangered; */
+    border-radius: 25px;
+}
+
+.what-people-text{
+    font-size: 250%;
+    margin-bottom: 3%;
+}
+
+.happy-review{
+    margin-bottom: 3%;
+}
+
+.first-person, .second-person{
+    height: 70%;
+    width: 20%;
+    /* background-color: chartreuse; */
+    /* border: solid 1px orange; */
+    border-radius: 30px;
+    text-align: center;
+}
+
+.img1{
+    height: 37%;
+    width: 35%;
+    margin: 1% 32%;
+    /* background-color: darkred; */
+    border: solid 1px orange;
+    border-radius: 70%;
+    background-image: url(./media/faq.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    filter: drop-shadow(15px 10px 14px grey);
+}
+
+.img2{
+    height: 37%;
+    width: 35%;
+    margin: 1% 32%;
+    /* background-color: darkred; */
+    border: solid 1px orange;
+    border-radius: 70%;
+    background-image: url(./media/faq.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    filter: drop-shadow(15px 10px 14px grey);
+}
+
+.eighth-section{
+    grid-column: span 100;
+    grid-row: span 80;
+    /* background-color: crimson; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.half-pizza{
+    height: 90%;
+    width: 30%;
+    /* background-color: orange; */
+    background-image: url(./media/spice-pizza-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: drop-shadow(15px 10px 14px grey);
+    
+}
+
+.download{
+    height: 50%;
+    width: 35%;
+    /* background-color: deepskyblue; */
+}
+
+.download-app{
+    font-size: 250%;
+}
+
+.available em{
+    font-size: 100%;
+    color: orange;
+}
+
+.app-store{
+    height: 25%;
+    width: 35%;
+    /* background-color: black; */
+    margin-right: 3%;
+    background-image: url(./media/app-store-removebg-preview.png);
+    filter: drop-shadow(15px 10px 14px grey);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.google-play{
+    height: 25%;
+    width: 35%;
+    /* background-color: black; */
+    background-image: url(./media/google-play-removebg-preview.png);
+    filter: drop-shadow(15px 10px 14px grey);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.phones{
+    height: 70%;
+    width: 25%;
+    /* background-color: coral; */
+    background-image: url(./media/phones-removebg-preview.png);
+    background-position: center;
+    filter: drop-shadow(15px 10px 14px grey);
+}
